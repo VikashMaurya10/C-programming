@@ -1,3 +1,4 @@
+// Example of regiter varibale. 
 #include <stdio.h>
 #include <math.h>
 int power(int, int);
