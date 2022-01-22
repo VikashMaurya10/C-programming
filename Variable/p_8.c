@@ -1,4 +1,4 @@
-//Example of External storage class.
+//Example of Extern storage class.
 //File1.c
 #include <stdio.h>
 int x;

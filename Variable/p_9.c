@@ -1,4 +1,4 @@
-//Example of External storage class.
+//Example of Extern storage class.
 #include <stdio.h>
 int count;
 extern void write_extern();
