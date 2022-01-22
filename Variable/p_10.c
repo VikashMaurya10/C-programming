@@ -1,4 +1,4 @@
-//Examle of static storage class.
+//Example of static storage class.
 #include <stdio.h>
 void print(void);
 
