@@ -1,4 +1,4 @@
-//
+//Find the GCD of two number.
 #include <stdio.h>
 int GCD(int, int);
 void main()
