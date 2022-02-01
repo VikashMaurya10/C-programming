@@ -3,7 +3,7 @@
 int func(int);
 void main()
 {
-    int a, i;
+    int a;
     printf("Enter the number: ");
     scanf("%d", &a);
     printf("%d!= %d\n", a, func(a));
