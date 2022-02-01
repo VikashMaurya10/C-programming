@@ -21,6 +21,5 @@ void main()
     int n;
     printf("Enter the number: ");
     scanf("%d", &n);
-    printf("Function 1 %d\n", func1(n));
-    printf("Function 2 %d\n", func2(n));
+    printf("Function 1: %d\n", func1(n));
 }
