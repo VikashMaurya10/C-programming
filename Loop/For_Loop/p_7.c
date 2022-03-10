@@ -1,0 +1,63 @@
+//  To print a Piramid.
+#include <stdio.h>
+void main()
+{
+    int i, j, row, k = 0;
+    printf("Enter the number: ");
+    scanf("%d", &row);
+
+    for (i = 1; i <= row; i++)
+    {
+        for (j = 1; j <= row - i; j++)
+        {
+            printf("   ");
+        }
+        for (k = 1; k <= (2 * i - 1); k++)
+        {
+            printf("***");
+        }
+        printf("\n");
+    }
+    for (i = 1; i <= row; i++)
+    {
+        for (j = 1; j <= row - i; j++)
+        {
+            printf("   ");
+        }
+        for (k = 1; k <= 2 * i - 1; k++)
+        {
+            printf("***");
+        }
+        printf("\n");
+    }
+    for (i = 1; i <= row + 4; i++)
+    {
+        if (row % 2 == 0)
+        {
+            printf("              ****\n");
+        }
+        else
+        {
+            printf("           *****\n");
+        }
+    }
+    for (i = 1; i <= 2; i++)
+    {
+        if (row % 2 == 0)
+        {
+            for (j = 1; j <= row + 5; j++)
+            {
+                printf("***");
+            }
+            printf("\n");
+        }
+        else
+        {
+            for (j = 1; j <= row + 4; j++)
+            {
+                printf("***");
+            }
+            printf("\n");
+        }
+    }
+}

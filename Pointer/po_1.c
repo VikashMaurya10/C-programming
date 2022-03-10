@@ -1,4 +1,4 @@
-//
+// basic of pointer program
 #include <stdio.h>
 void main()
 {
