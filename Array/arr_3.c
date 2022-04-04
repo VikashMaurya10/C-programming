@@ -5,11 +5,11 @@ int main()
 {
     int a[10][10], b[10][10], mul[10][10], r, c, i, j, k;
     system("cls");
-    printf("enter the number of row=");
+    printf("enter the number of row: ");
     scanf("%d", &r);
-    printf("enter the number of column=");
+    printf("enter the number of column: ");
     scanf("%d", &c);
-    printf("enter the first matrix element=\n");
+    printf("enter the first matrix element:\n");
     for (i = 0; i < r; i++)
     {
         for (j = 0; j < c; j++)
@@ -17,7 +17,7 @@ int main()
             scanf("%d", &a[i][j]);
         }
     }
-    printf("enter the second matrix element=\n");
+    printf("enter the second matrix element:\n");
     for (i = 0; i < r; i++)
     {
         for (j = 0; j < c; j++)
@@ -26,7 +26,7 @@ int main()
         }
     }
 
-    printf("multiply of the matrix=\n");
+    printf("multiply of the matrix:\n");
     for (i = 0; i < r; i++)
     {
         for (j = 0; j < c; j++)

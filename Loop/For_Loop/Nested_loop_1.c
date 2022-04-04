@@ -8,9 +8,9 @@ void main()
     scanf("%d", &n);
     for (i = 1; i <= 10; i++)
     {
-        for (j = 1; j <= n; j++)
+        for (j = 1; j <= 1; j++)
         {
-            printf("%d\t", i * j);
+            printf("%d", n * i);
         }
         printf("\n");
     }
