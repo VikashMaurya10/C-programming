@@ -4,6 +4,11 @@
 void main()
 {
     int i, n;
+
+
+
+
+    
     printf("Enter the Frist Number: ");
     scanf("%d", &n);
     printf("Enter the Second Number: ");
